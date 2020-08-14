@@ -1,0 +1,9 @@
+﻿@model Ziglearning.Website.Models.EnrollModel
+@{
+    ViewBag.Title = "Thanks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Thanks, you successfully registered to the Class!</h3>
+
+<h3>See Your Classes Here: @Html.ActionLink("Your Enrolled Classes", "YourEnrolledClasses", "home", new { ReturnUrl = ViewBag.ReturnUrl })</h3>

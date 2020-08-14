@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziglearning.Website", "Ziglearning.Website\Ziglearning.Website.csproj", "{40C572F2-D2D0-40D9-A4A0-86612B36660E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziglearning.Business", "Ziglearning.Business\Ziglearning.Business.csproj", "{6F535F30-AFEE-44E4-BBAC-5B23513C53BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziglearning.ProductDatabase", "Ziglearning.ProductDatabase\Ziglearning.ProductDatabase.csproj", "{5CCEC313-5F69-4706-8ADC-1F128D438A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziglearning.Repository", "Ziglearning.Repository\Ziglearning.Repository.csproj", "{4340DCDA-A6D7-4AA3-BCDA-791F45268F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C572F2-D2D0-40D9-A4A0-86612B36660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C572F2-D2D0-40D9-A4A0-86612B36660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C572F2-D2D0-40D9-A4A0-86612B36660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C572F2-D2D0-40D9-A4A0-86612B36660E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F535F30-AFEE-44E4-BBAC-5B23513C53BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F535F30-AFEE-44E4-BBAC-5B23513C53BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F535F30-AFEE-44E4-BBAC-5B23513C53BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F535F30-AFEE-44E4-BBAC-5B23513C53BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCEC313-5F69-4706-8ADC-1F128D438A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCEC313-5F69-4706-8ADC-1F128D438A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCEC313-5F69-4706-8ADC-1F128D438A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCEC313-5F69-4706-8ADC-1F128D438A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4340DCDA-A6D7-4AA3-BCDA-791F45268F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4340DCDA-A6D7-4AA3-BCDA-791F45268F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4340DCDA-A6D7-4AA3-BCDA-791F45268F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4340DCDA-A6D7-4AA3-BCDA-791F45268F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFED489E-7D71-453F-A451-B6A9808DAFF5}
+	EndGlobalSection
+EndGlobal

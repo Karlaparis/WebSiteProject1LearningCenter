@@ -1,0 +1,36 @@
+﻿@model Ziglearning.Website.Models.EnrollModel
+
+
+@{
+ 
+    ViewBag.Title = "Enroll";
+}
+
+@using (Html.BeginForm("EnrollToAClass", "Home", new { ReturnUrl = "Enroll" }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+
+            {
+
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true)
+
+                    <div>
+                        <h2>Enroll In Class</h2>
+                        <select name="classes" id="classes">
+                            @foreach (var clas in Model.Classes)
+                            {
+                                <option value="@clas.Id">@clas.Name</option>
+                            }
+                        </select>
+
+                        <input type="submit" class="btn btn-primary " value="Add Class" />
+                    </div>
+
+            }
+
+     
+
+
+
+
+

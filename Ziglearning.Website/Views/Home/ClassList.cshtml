@@ -1,0 +1,45 @@
+﻿@model Ziglearning.Website.Models.IndexModel
+@{
+    ViewBag.Title = "Classes";
+}
+
+
+<h2> Classes</h2>
+<table class="table">
+
+    <tr>
+       
+        <th>Name</th>
+        <th>Description</th>
+        <th> Price</th>
+    </tr>
+    
+
+    @foreach (var clas in Model.Classes)
+    {
+        <tr>
+            <td>@clas.Name</td>
+            <td>@clas.Description</td>
+            <td>$@clas.Price.ToString("0.00")</td>
+        </tr>
+    }
+    </table>     
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

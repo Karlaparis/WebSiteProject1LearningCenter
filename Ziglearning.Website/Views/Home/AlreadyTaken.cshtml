@@ -1,0 +1,12 @@
+﻿
+@model Ziglearning.Website.Models.ClassModel
+
+@{
+    ViewBag.Title = "AlreadyTaken";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>You have already registered for the class this semester !</h2>
+
+
+<h3>@Html.ActionLink("Enroll to another class", "Enroll")</h3>

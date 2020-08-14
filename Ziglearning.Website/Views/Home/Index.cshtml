@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1>The Learning Center</h1>
+
+        <p class="lead">The place for technology classes.</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+       
+        <h2>@Html.ActionLink("Class List", "ClassList")</h2>
+        <p>See all our class offerings.   </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Your Enrolled Classes","YourEnrolledClasses", "home", new { ReturnUrl = ViewBag.ReturnUrl } )</h2>
+        <p>See the classes you are enrolled in.</p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Enroll in a Class", "Enroll")</h2>
+        <p>Enroll in a class</p>
+    </div>
+
+  
+</div>
